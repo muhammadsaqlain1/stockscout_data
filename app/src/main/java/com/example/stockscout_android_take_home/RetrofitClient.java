@@ -7,7 +7,7 @@ public class RetrofitClient {
 
     // 🔥 Replace with your real GitHub raw URL
     private static final String BASE_URL =
-            "https://raw.githubusercontent.com/muhammadsaqlain1/stockscout_data/main/";
+            "https://raw.githubusercontent.com/muhammadsaqlain1/stocksoutapp/main/";
 
     public static ApiService getApi() {
         return new Retrofit.Builder()
